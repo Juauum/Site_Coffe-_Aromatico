@@ -1,0 +1,251 @@
+/* SECÃO 00 */
+
+body {
+  background-color: black;
+  margin: 0;
+  color: black;
+  padding: 0;
+}
+
+
+
+#secao_00 .cabecalho {
+  border: solid 1px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.menu {
+  color: brown;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 150px;
+  word-spacing: 45px;
+}
+
+#secao_00 .cabecalho img {
+  width: 60px;
+  height: 60px;
+  padding-top: 15px;
+}
+
+#secao_00 .nome {
+  color: brown;
+  font-family: 'Brush Script MT', cursive;
+  font-weight: 800;
+  font-size: 70px;
+}
+
+#secao_00 .banner img {
+  width: 100%;
+  height: 400px;
+
+
+}
+
+/* SEÇÃO 01 */
+
+#secao_01 {
+  background-color: bisque;
+}
+
+.lanche {
+  background-color: green;
+  border: 10px double;
+  border-color: black;
+}
+
+.xicara {
+  background-color: crimson;
+  border: 10px double;
+  border-color: black;
+}
+
+.pao {
+  background-color: gold;
+  border: 10px double;
+  border-color: black;
+}
+
+#secao_01 .sub_titulo {
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Brush Script MT', cursive;
+  text-transform: capitalized;
+  color: brown;
+  font-weight: bold;
+
+}
+
+#secao_01 p {
+  text-align: center;
+  font-size: 25px;
+}
+
+#secao_01 .linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#secao_01 .caixa img {
+  width: 350px;
+  height: 300px;
+  border: 10px solid double;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+/* SECÃO 02 */
+
+#secao_02 {
+  background-color: bisque;
+
+}
+
+#secao_02 .linha {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 20px;
+  justify-content: center;
+}
+
+#secao_02 .imagem img {
+  width: 600px;
+  height: 650px;
+  border: 10px double;
+}
+
+#secao_02 .imagem2 img {
+  width: 700px;
+  height: 360px;
+  border: double 10px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+#secao_02 .titulo1 {
+  font-size: 60px;
+  white-space: nowrap;
+  font-weight: 800;
+  font-family: 'Brush Script MT', cursive;
+  border: 1px solid;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: brown;
+  background-color: bisque;
+}
+
+#secao_02 .titulo2 {
+  font-size: 60px;
+  white-space: nowrap;
+  font-weight: 800;
+  font-family: 'Brush Script MT', cursive;
+  text-transform: capitalize;
+  border: 1px solid;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: brown;
+  background-color: bisque;
+  position: relative;
+  left: 138px;
+
+}
+
+#secao_02 .texto1 {
+  width: 500px;
+  height: 200px;
+  font-size: 25px;
+}
+
+#secao_02 .texto2 {
+  width: 500px;
+  height: 50px;
+  font-size: 25px;
+  position: relative;
+  left: 140px;
+  text-align: right;
+}
+
+/* SEÇÃO 03 */
+
+#secao_03 {
+  background-color: black;
+}
+
+#secao_03 h1 {
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bolder;
+  font-size: 100px;
+  color: brown;
+}
+
+#secao_03 .linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+#secao_03 .linha img {
+  width: 220px;
+  height: 220px;
+  border: 10px double;
+  color: brown;
+  border-radius: 10px;
+  margin: 7px;
+  background-color: black;
+}
+
+/* SECÃO 04 */
+
+#secao_04 {
+  background-color: black;
+  color: white;
+}
+
+#secao_04 .linha img {
+  width: 30px;
+  height: 30px;
+
+}
+
+#secao_04 .linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin: 30px;
+}
+
+#secao_04 .bloco {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.info_pino,
+.info_fone,
+.info_insta {
+  padding-top: 10px;
+}
+
+.email, .info_email{
+  position: relative;
+  right: 36px;
+}
+
+.whats,.info_whats{
+  position:relative;
+  left: 45px;
+}
+
+.tiktok,.info_tiktok{
+  position: relative;
+  left: 38px;
+}
